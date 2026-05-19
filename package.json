@@ -1,0 +1,40 @@
+{
+  "name": "elb-construction",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "description": "Single-page website for ELB construction.",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "preview": "vite preview"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mustaf-Is/elb-construction.git"
+  },
+  "keywords": [
+    "construction",
+    "renovation",
+    "paris",
+    "react"
+  ],
+  "author": "",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/Mustaf-Is/elb-construction/issues"
+  },
+  "homepage": "https://github.com/Mustaf-Is/elb-construction#readme",
+  "dependencies": {
+    "react": "^19.2.6",
+    "react-dom": "^19.2.6"
+  },
+  "devDependencies": {
+    "@types/node": "^25.9.1",
+    "@types/react": "^19.2.15",
+    "@types/react-dom": "^19.2.3",
+    "@vitejs/plugin-react": "^6.0.2",
+    "typescript": "^6.0.3",
+    "vite": "^8.0.13"
+  }
+}
